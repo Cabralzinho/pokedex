@@ -90,6 +90,7 @@ function createResumeStatus(pokemon) {
 function getPokemonIdOnUrl() {
     const url = new URL(window.location);
     const pokemonId = parseInt(url.searchParams.get("pokemon")) - 1
+    currentyPage = pokemonId
 
     return pokemonId
 }
