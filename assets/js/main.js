@@ -25,7 +25,7 @@ function createPlaceHolderCard() {
 
 function createPokemonCard(pokemon) {
     return `
-        <a id="link-status" href="poke-status.html?pokemon=${pokemon.id}">
+        <a class="link-status" href="poke-status.html?pokemon=${pokemon.id}">
             <li class="pokemon ${pokemon.types[0].type.name}">
                 <span class="number">#${pokemon.id}</span>
                 <span class="name">${pokemon.name}</span>
