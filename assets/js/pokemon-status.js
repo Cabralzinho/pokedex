@@ -92,7 +92,7 @@ function getPokemonIdOnUrl() {
     const pokemonId = parseInt(url.searchParams.get("pokemon")) - 1
     currentyPage = pokemonId
 
-    return pokemonId
+    return currentyPage
 }
 
 function startApi(offset, limit = 1) {
