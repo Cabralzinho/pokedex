@@ -151,6 +151,13 @@
     flex-direction: column;
 }
 
+.placeholder-status {
+    background: #9c9c9c;
+    height: 540px;
+    animation: placeholder 2s infinite;
+    animation-delay: -1s;
+}
+
 .pokemon .number {
     color: rgba(0, 0, 0, 0.397);
     text-align: right;
@@ -296,6 +303,10 @@
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+}
+
+.start-pokemon {
+    padding-top: 10px;
 }
 
 .status-pokemon,
