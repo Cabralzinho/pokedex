@@ -19,12 +19,13 @@ body {
 }
 
 .content-status {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    border-radius: 0 0px 10px 10px;
 }
 
 .container-status {
     background-color: #FFF;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     padding-bottom: 10px;
 }
 
