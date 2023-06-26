@@ -32,7 +32,6 @@ function createResumeStatus(pokemon) {
                         <div class="types">
                             ${createListOfTypes(pokemon.types).join(" ")}
                         </div>
-                        <h3 class="">About</h3>
                         <div class="about">
                         <div class="weight-about">
                             <i class="fa-solid fa-weight-hanging"></i>
